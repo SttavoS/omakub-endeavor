@@ -9,7 +9,7 @@ fi
 . /etc/os-release
 
 # Check if running on Endeavor Linux
-if [ "$ID" != "endeavor" ] && [ "$ID" != "arch" ]; then
+if [ "$ID" != "endeavouros" ] && [ "$ID" != "arch" ]; then
   echo "$(tput setaf 1)Error: OS requirement not met"
   echo "You are currently running: $ID"
   echo "OS required: Endeavor GNOME 24+ or Arch Linux"
