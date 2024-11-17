@@ -8,11 +8,11 @@ fi
 
 . /etc/os-release
 
-# Check if running on Manjaro Linux
-if [ "$ID" != "manjaro" ] && [ "$ID" != "arch" ]; then
+# Check if running on Endeavor Linux
+if [ "$ID" != "endeavor" ] && [ "$ID" != "arch" ]; then
   echo "$(tput setaf 1)Error: OS requirement not met"
   echo "You are currently running: $ID"
-  echo "OS required: Manjaro GNOME 24+ or Arch Linux"
+  echo "OS required: Endeavor GNOME 24+ or Arch Linux"
   echo "Installation stopped."
   exit 1
 fi

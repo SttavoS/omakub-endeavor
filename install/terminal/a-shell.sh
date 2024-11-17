@@ -2,7 +2,7 @@
 [ -f "~/.bashrc" ] && mv ~/.bashrc ~/.bashrc.bak
 cp ~/.local/share/omakub/configs/bashrc ~/.bashrc
 
-# Manjaro defaults to ZSH
+# Endeavor defaults to ZSH
 [ -f "~/.zshrc" ] && cp ~/.zshrc ~/.zshrc.bak
 cp ~/.local/share/omakub/configs/zshrc ~/.zshrc
 

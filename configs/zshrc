@@ -1,6 +1,6 @@
-# Source manjaro-zsh-configuration
-if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
-  source /usr/share/zsh/manjaro-zsh-config
+# Source endeavor-zsh-configuration
+if [[ -e /usr/share/zsh/endeavor-zsh-config ]]; then
+  source /usr/share/zsh/endesvor-zsh-config
 fi
 
 source ~/.local/share/omakub/defaults/zsh/rc
